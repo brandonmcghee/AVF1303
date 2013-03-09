@@ -2,7 +2,6 @@ body {
     color:#FFFFFF;
     background-color:#000000;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
-
 }
 
 img.mini {
@@ -12,9 +11,14 @@ img.mini {
 }
 
 img.icon {
+<<<<<<< HEAD
     height:75px !important;
     width:75px !important;
     margin-left:auto !important;
     margin-right:auto !important;
     display:block;
+=======
+    height:50px !important;
+    width:50px !important;
+>>>>>>> master
 }
