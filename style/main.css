@@ -12,6 +12,7 @@ img.mini {
 
 img.icon {
 <<<<<<< HEAD
+<<<<<<< HEAD
     height:75px !important;
     width:75px !important;
     margin-left:auto !important;
@@ -20,5 +21,16 @@ img.icon {
 =======
     height:50px !important;
     width:50px !important;
+>>>>>>> master
+=======
+    height:50px !important;
+    width:50px !important;
+=======
+    height:75px !important;
+    width:75px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    display:block;
+>>>>>>> Week 2
 >>>>>>> master
 }
