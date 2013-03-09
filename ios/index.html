@@ -1,45 +1,53 @@
 <!doctype html>
 <!-- Brandon McGhee -->
-<!-- AVF Week 1 -->
+<!-- iOS -->
 <html lang="en">
     
     <head>
-        <title>AVF1303 - Brandon McGhee</title>
+        <title>Spirit Tracker - iOS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="Spirit Trackers" />
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
-        <link rel="stylesheet" type="text/css" href="style/main.css" />
-	<link rel="stylesheet" type="text/css" href="style/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="../style/main.css" />
+	<link rel="stylesheet" type="text/css" href="../style/jquery.mobile-1.2.0.min.css" />
     </head>
     
 <body>
     <!-- Begin Home Page -->
     <section data-role="page" id="home" data-theme="a">
         <header data-role="header" data-theme="e" data-position="fixed">
-	    <img src="images/mini2.png" />
+	    <img src="../images/mini2.png" class="mini" />
         </header>
 	<section data-role="content" id="cta">
-	    <h1>AVF1303 - Brandon McGhee</h1>
-	    <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
-		<li data-role="list-divider">iOS</li>
-		<li>Accelerometer (Shake to stir up drink recipes)</li>
-		<li>Camera (Barcode Scanner)</li>
-		<li>Social Network Sharing (Twitter, Facebook, Google +)</li>
-		<li>Geo Location (Find closest stores)</li>
-		<li data-role="list-divider">Android</li>
-		<li>Accelerometer (Shake to stir up drink recipes)</li>
-		<li>Camera (Barcode Scanner)</li>
-		<li>Social Network Sharing (Twitter, Facebook, Google +)</li>
-		<li>Connection (Use network to search internet for best prices)</li>
-		<li data-role="list-divider">JSON-P Data APIs</li>
-		<li><a href="https://dev.twitter.com/">Twitter</a></li>
-		<li><a href="http://developers.facebook.com/">Facebook</a></li>
-		<li><a href="https://developers.google.com/+/api/">Google +</a></li>
-		<li data-role="list-divider">Research</li>
-		<li><a href="#week1">Week One: Industry Research and Project Intent</a></li>
-		<li>Week Two</li>
-		<li>Week Three</li>	
-	    </ul>
+	    <h1>iOS</h1>
+	    <div class="ui-grid-a">
+		<div class="ui-block-a">
+		    <button type="button" data-theme="c">
+			<img src="../images/app_icons/compass-icon.png" class="icon" />
+			Accelerometer
+		    </button>
+		</div>
+		<div class="ui-block-b">
+		    <button type="button" data-theme="c">
+			<img src="../images/app_icons/Camera-icon.png" class="icon" />
+			Camera
+		    </button>
+		</div>
+	    </div>
+	    <div class="ui-grid-a">
+		<div class="ui-block-c">
+		    <button type="button" data-theme="c">
+			<img src="../images/app_icons/satellite-icon.png" class="icon" />
+			Location
+		    </button>
+		</div>
+		<div class="ui-block-d">
+		    <button type="button" data-theme="c">
+			<img src="../images/app_icons/chat-icon.png" class="icon" />
+			Social
+		    </button>
+		</div>
+	    </div>
 	</section>
     </section>
     
@@ -49,14 +57,14 @@
     <section data-role="page" id="week1" data-theme="a">
         <header data-role="header" data-theme="e" data-position="fixed">
 	    <a href="#" data-role="button" data-rel="back" data-theme="a" data-icon="arrow-l">Back</a>
-	    
+	    <img src="../images/mini2.png" class="mini" />
         </header>
 	<section data-role="content" id="cta">
 	    <h1>AVF1303 - Brandon McGhee</h1>
 	    <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
 		<li data-role="list-divider">Competing Applications</li>
 		<li>
-		    <img src="images/app_icons/corkz.png" />
+		    <img src="../images/app_icons/corkz.png" />
 		    Corkz Wine Info - by Applied Ambiguities, LLC
 		    <br />
 		    <br />
@@ -70,7 +78,7 @@
 		
 		</li>
 		<li>
-		    <img src="images/app_icons/cadent.jpg" />
+		    <img src="../images/app_icons/cadent.jpg" />
 		    Cadent wineCellar - by Cadent Computing Inc.
 		    <br />
 		    <br />
@@ -84,7 +92,7 @@
 		
 		</li>
 		<li>
-		    <img src="images/app_icons/yourwinesHD.jpg" />
+		    <img src="../images/app_icons/yourwinesHD.jpg" />
 		    Your Wines HD - by El Nudo Molesto
 		    <br />
 		    <br />
@@ -103,8 +111,8 @@
     
     <!-- End Week 1 Page --> 
 
-    <script src="js/jquery-1.8.2.min.js"></script>
-    <script src="js/jquery.mobile-1.2.0.min.js"></script>
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jquery.mobile-1.2.0.min.js"></script>
     <!-- <script src="js/main.js"></script> -->
 </body>
 
