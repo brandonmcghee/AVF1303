@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<!-- Brandon McGhee -->
+<!-- AVF Week 2 -->
+<html lang="en">
+    
+    <head>
+        <title>AVF1303 - Brandon McGhee</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Spirit Trackers" />
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.2.0.min.css" />
+    </head>
+    
+    <body>
+        <!-- Begin Home Page -->
+        <section data-role="page" id="home" data-theme="a">
+            <header data-role="header" data-theme="e" data-position="fixed">
+                <img src="img/mini2.png" class="mini" />
+            </header>
+            <section data-role="content" id="cta">
+                <h1>AVF1303 - Brandon McGhee</h1>
+                <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
+                    <li data-role="list-divider">iOS</li>
+                    <li>Accelerometer (Shake to stir up drink recipes)</li>
+                    <li>Camera (Barcode Scanner)</li>
+                    <li>Social Network Sharing (Twitter, Instagram)</li>
+                    <li>Geo Location (Find closest stores)</li>
+                    <li data-role="list-divider">JSON-P Data APIs</li>
+                    <li><a href="#twitterData" data-rel="dialog">Twitter</a></li>
+                    <li><a href="#instagramData" data-rel="dialog">Instagram</a></li>
+                    <li data-role="list-divider">Research</li>
+                    <li><a href="#week1">Week One: Industry Research and Project Intent</a></li>
+                    <li><a href="#week2">Week Two: API</a></li>
+                    <li>Week Three</li>
+                    <li data-role="list-divider">Links</li>
+                    <li><a href="http://brandonmcghee.github.com/ASD/Week3/">CRUD</a><li>
+                        </section>
+        </section>
+        
+        <!-- End Home Page -->
+        <!-- Begin Twitter Data Page -->
+        <section data-role="page" id="twitterData" data-theme="c">
+            <header data-role="header" data-theme="e">
+                <h1>Twitter</h1>
+            </header>
+            <section data-role="content" id="data">
+                <button id="getTweets">
+                    Search Tweets for St Patricks Day
+                </button>
+                <ul id="tweets" data-role="listview" data-theme="c" data-inset="true">
+                    
+                </ul>
+            </section>
+        </section>
+        <!-- End Twitter Data Page -->
+        
+        <!-- Begin Instagram Data Page -->
+        
+        <section data-role="page" id="instagramData" data-theme="c">
+            <header data-role="header" data-theme="e">
+                <h1>Instagram</h1>
+            </header>
+            <section data-role="content" id="data">
+                <button id="getInstagram">
+                    Search Instagram for St Patricks Day
+                </button>
+                <ul id="Feed" data-role="listview" data-theme="c" data-inset="true">
+                    
+                </ul>
+            </section>
+        </section>
+        <!-- End Instagram Data Page -->
+        
+        <!-- Begin Week 1 Page -->
+        <section data-role="page" id="week1" data-theme="a">
+            <header data-role="header" data-theme="e" data-position="fixed">
+                <a href="#" data-role="button" data-rel="back" data-theme="a" data-icon="arrow-l">Back</a>
+                <img src="img/mini2.png" class="mini" />
+            </header>
+            <section data-role="content" id="cta">
+                <h1>AVF1303 - Brandon McGhee</h1>
+                <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
+                    <li data-role="list-divider">Competing Applications</li>
+                    <li>
+                        <img src="img/app_icons/corkz.png" />
+                        Corkz Wine Info - by Applied Ambiguities, LLC
+                        <br />
+                        <br />
+                        S: Low Cost, Simple Interface, Wine Reviews
+                        <br />
+                        W: Not Cross Platform, Can not manually add items
+                        <br />
+                        O: Pushing into Android/Blackberry/Windows
+                        <br />
+                        T: Already has a market share where my application does not, Has been positively reviewed by Wine websites
+                        
+                    </li>
+                    <li>
+                        <img src="img/app_icons/cadent.jpg" />
+                        Cadent wineCellar - by Cadent Computing Inc.
+                        <br />
+                        <br />
+                        S: Low Cost, Pre-loaded Wine List with multiple categories, Cloud syncing
+                        <br />
+                        W: Non aesthitic interface, iPhone version is most advanced, Not Cross Platform
+                        <br />
+                        O: Pushing into Android/Blackberry/Windows, Social Media Sharing
+                        <br />
+                        T: Already has a market share where my application does not
+                        
+                    </li>
+                    <li>
+                        <img src="img/app_icons/yourwinesHD.jpg" />
+                        Your Wines HD - by El Nudo Molesto
+                        <br />
+                        <br />
+                        S: Low Cost, More of a Journal than database (appealing to people not familiar with databases)
+                        <br />
+                        W: Not Cross Platform
+                        <br />
+                        O: Pushing into Android/Blackberry/Windows, Social Media, Possible Market sponsorship with Wineries
+                        <br />
+                        T: Already has a market share where my application does not, Considered one of the best wine applications out there
+                        
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <!-- End Week 1 Page -->
+        
+        <!-- Begin Week 2 Page -->
+        <section data-role="page" id="week2" data-theme="a">
+            <header data-role="header" data-theme="e" data-position="fixed">
+                <a href="#" data-role="button" data-rel="back" data-theme="a" data-icon="arrow-l">Back</a>
+                <img src="img/mini2.png" class="mini" />
+            </header>
+            <section data-role="content" id="cta">
+                <h1>AVF1303 - Brandon McGhee</h1>
+                <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
+                    <li data-role="list-divider">Week 2 Research</li>
+                    <li>
+                        <img src="img/app_icons/twitter.png" />
+                        <u>Twitter</u>
+                        <br />
+                        Twitter was as expected, very simple to work with.  No token is needed to get tweets, since
+                        Twitter is all about being open with information.  I would like a user to be able to sign in
+                        with their Twitter account to link the two.  That way they can share tweets and other data
+                        such as pictures.
+                    </li>
+                    <li>
+                        <img src="img/app_icons/Instagram_Icon_Medium.png" />
+                        <u>Instagram</u>
+                        <br />
+						The Instagram API was a lot easier to use than I had assumed.  The only thing that was different from
+						Twitter was having to use an Access Token at the beginning.  I basically gave permission for my app
+						to access my account on Instagram (just for now).  The idea I have is to let the user post pictures of their
+						purchases, or to look up pictures of differnt kinds of spirits.
+                        
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <!-- End Week 2 Page -->        
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="cordova-2.5.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+
+    </body>
+</html>
